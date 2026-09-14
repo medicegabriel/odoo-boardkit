@@ -58,6 +58,7 @@ repos:
           - --repo-name=odoo-boardkit
           - --if-source-changed
           - --keep-source-digest
+          - --no-gen-html
   - repo: https://github.com/OCA/odoo-pre-commit-hooks
     rev: v0.0.25
     hooks:
